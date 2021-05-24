@@ -1,0 +1,78 @@
+#head{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  
+
+}
+#head .navBar1{
+  height: 120px; 
+  width: 100%;
+   background-color: transparent !important; 
+   padding-top: 50px; 
+   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.9), 0 6px 10px 0 rgba(83, 82, 82, 0.5);
+}
+#head .Brand_image{
+margin-left: 100px;
+}
+  
+
+.accordion {
+
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+transition: 0.4s;
+}
+
+
+
+.accordion:after {
+content: ' \02C3';
+color: #777;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+.active0:after {
+content: ' \02C5';
+}
+
+.panel {
+padding: 0 18px;
+
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+}
+.server-action-menu {
+border-radius:3px;
+
+}
+.info-panel{
+padding-left: 10px;
+}
+@media only screen and (max-width: 800px) {
+#head #navbarSupportedContent{
+  left: 90px;
+}
+
+#head .nav-link{
+text-align: center;
+color: black!important;
+
+}
+#head .btn-primary1{
+margin-left: 35vw!important;
+}
+
+#head .navbar-brand img{
+margin-right: 55vw !important;
+}
+
+}
